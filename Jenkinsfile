@@ -7,11 +7,11 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/jkyand24/flask-app-0701.git'
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         git 'https://github.com/jkyand24/flask-app-0701.git'
+        //     }
+        // }
 
         stage('Build Docker Image') {
             steps {

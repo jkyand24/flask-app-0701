@@ -35,7 +35,7 @@ pipeline {
             }
         }
 
-        stage('Run Container (Optional)') {
+        stage('Run Container') {
             steps {
                 script {
                     // 기존 컨테이너 제거 (있다면)
